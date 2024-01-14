@@ -9,7 +9,6 @@ CREATE TABLE userContent (
 	
 );
 
-select * from userContent
 
 
 INSERT INTO userContent (username, firstName, lastName, threeDigitNumber, numberOfWins, numberOfLosses)
@@ -98,7 +97,7 @@ VALUES
 	(SELECT * FROM OPENROWSET(BULK N'D:\Italy.jpg', SINGLE_BLOB) as T1),3)
    
 
-   select * from QuizQuestions
+  
   
 		   SELECT Username, NumberOfWins
 		FROM userContent
